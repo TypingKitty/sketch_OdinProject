@@ -1,0 +1,26 @@
+.content{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    background-color: rgb(70, 76, 90);
+}
+.settings,.sketch{
+    height: inherit;
+    border-radius: .6rem;
+    border: solid black 2px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+    margin: 0;
+    padding: 0;
+}
+.sketch{
+    display: grid;
+    width: 50%;
+    height: inherit;
+}
+.sketch>div{
+    background-color: aliceblue;
+}
