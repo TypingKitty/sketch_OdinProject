@@ -8,12 +8,19 @@
     <title>Document</title>
 </head>
 <body>
+    <header><p>Etch A Sketch</p></header>
     <div class="content">
         <div class="settings">
-            <button class="new">new canvas</button>
+            <input class="color_picker" type="color">
+            <button class="color pen selected">pen</button>
+            <button class="color random">random</button>
+            <button class="color eraser">eraser</button>
+            <button class="clear">clear</button>
+            <button class="new">new canvas</button>   
         </div>
         <div class="sketch"></div>
     </div>
+    <footer><p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Typing Kitty</p></footer>
     <script src="script.js"></script>
 </body>
 </html>
